@@ -1,10 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
-  faTwitter,
+  
   faInstagram,
-  faYoutube,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -12,60 +11,59 @@ const Footer = () => {
     <footer className="bg-black text-white py-12 mt-5">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Follow Us */}
+          {/* Quick Links */}
           <div>
-            <h4 className="text-xl font-bold mb-4">Follow Us</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-400">
-                <FontAwesomeIcon icon={faFacebookF} size="lg" />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FontAwesomeIcon icon={faTwitter} size="lg" />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FontAwesomeIcon icon={faInstagram} size="lg" />
-              </a>
-              <a href="#" className="hover:text-gray-400">
-                <FontAwesomeIcon icon={faYoutube} size="lg" />
-              </a>
-            </div>
+            <h4 className="text-xl font-bold mb-4">Quick Links</h4>
+            <ul className="text-slate-500">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+              <li>
+                <a href="/contact">Contact Us</a>
+              </li>
+              <li>
+                <a href="">Report Fraud</a>
+              </li>
+              <li>
+                <a href="">Refund Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Customer Trust and Growth Highlights */}
+          <div>
+            <h4 className="text-xl font-bold mb-4">Customer Trust and Growth Highlights</h4>
+            <p>
+              Over the past three years, we have had the privilege of serving an ever-growing customer base, exceeding 10,000 satisfied clients. Our commitment is evident in the reception of more than 500 daily orders, a testament to the trust and satisfaction our customers place in us. We take pride in maintaining a consistent 100% satisfaction rate, reflecting our dedication to delivering exceptional service and building lasting trust.
+            </p>
           </div>
 
           {/* Contact Us */}
           <div>
             <h4 className="text-xl font-bold mb-4">Contact Us</h4>
-            <p className="text-slate-500">123, Agarbatti Street,</p>
-            <p className="text-slate-500">Aromatic City,</p>
-            <p className="text-slate-500 cursor-pointer">+91 01234 56789</p>
-            <p className="text-slate-500 cursor-pointer">
-              contact@agarbattibusiness.com
-            </p>
-          </div>
-
-          {/* Agarbatti Types */}
-          <div>
-            <h4 className="text-xl font-bold mb-4">Agarbatti Types</h4>
-            <ul className="text-slate-500 cursor-pointer">
-              <li>Rose</li>
-              <li>Jasmine</li>
-              <li>Lavender</li>
-              <li>Sandalwood</li>
-              <li>Mixed Fragrance</li>
-            </ul>
+            <p className="text-slate-500">Pratapnagar, Jaipur, Rajasthan</p>
+            <p className="text-slate-500 cursor-pointer">+91 9351655497</p>
+            <p className="text-slate-500 cursor-pointer">streamnation_12@gmail.com</p>
           </div>
         </div>
 
-        {/* Help Links */}
-        <div className="mt-8">
-          <h4 className="text-xl font-bold mb-4">Help</h4>
-          <ul className="text-slate-500 cursor-pointer">
-            <li>Ordering & Payment</li>
-            <li>Shipping & Delivery</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-            <li>Returns & Refunds</li>
-          </ul>
+        {/* Social Media Icons */}
+        <div className="flex justify-center mt-8">
+          <a href="https://www.instagram.com/streamnation_12/" className="mr-4">
+            <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+          </a>
+          
+          <a href="#" className="mr-4">
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
+          
         </div>
+      </div>
+      <div className="text-center mt-8">
+        © 2023 by Streamnation.xyz and Manoj Sharma
       </div>
     </footer>
   );

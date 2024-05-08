@@ -5,27 +5,27 @@ function About() {
     <div>
       <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
         <div className="lg:w-10/12 w-full">
-          <p className="font-normal leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer text-2xl mb-7">About Agarbatti </p>
-          <h2 className="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-800 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2">We are dedicated to crafting the finest agarbatti for spiritual and everyday use</h2>
-          <p className="font-normal text-base leading-6 text-gray-600 mt-6">Agarbatti, also known as incense sticks, have been an integral part of Indian traditions and rituals for centuries. Our mission is to provide high-quality, aromatic agarbatti that not only elevates your spiritual experience but also adds a touch of tranquility to your everyday life.</p>
+          <p className="font-normal leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer text-2xl mb-7">About StreamNation</p>
+          <h2 className="xl:w-8/12 lg:w-10/12 w-full font-bold text-gray-800 lg:text-4xl text-3xl lg:leading-10 leading-9 mt-2">Your Ultimate Destination for Premium OTT Entertainment</h2>
+          <p className="font-normal text-base leading-6 text-gray-600 mt-6">StreamNation is your one-stop destination for premium OTT entertainment, offering a wide range of exclusive content to satisfy every viewer's craving for top-notch entertainment. Our platform is dedicated to providing high-quality streaming experiences that redefine the way you enjoy your favorite shows and movies.</p>
         </div>
 
         <div className="lg:mt-14 sm:mt-10 mt-12">
-          <img className="lg:block hidden w-full" src="images/hero3.jpg" alt="Group of people Chilling" />
-          <img className="lg:hidden sm:block hidden w-full" src="images/hero3.jpg" alt="Group of people Chilling" />
-          <img className="sm:hidden block w-full" src="images/hero3.jpg" alt="Group of people Chilling" />
+          <img className="lg:block hidden w-full" src="https://t3.ftcdn.net/jpg/04/45/81/54/240_F_445815449_eKsWl9SZ9xdoQLaxN7kmP2Q5RzFswRWJ.jpg" alt="Group of people Chilling" />
+          <img className="lg:hidden sm:block hidden w-full" src="https://t3.ftcdn.net/jpg/04/45/81/54/240_F_445815449_eKsWl9SZ9xdoQLaxN7kmP2Q5RzFswRWJ.jpg" alt="Group of people Chilling" />
+          <img className="sm:hidden block w-full" src="https://t3.ftcdn.net/jpg/04/45/81/54/240_F_445815449_eKsWl9SZ9xdoQLaxN7kmP2Q5RzFswRWJ.jpg" alt="Group of people Chilling" />
         </div>
 
         <div className="lg:mt-16 sm:mt-12 mt-16 flex lg:flex-row justify-between flex-col lg:gap-8 gap-12">
           <div className="w-full xl:w-5/12 lg:w-6/12">
-            <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Commitment</h2>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-4">We source the finest natural ingredients to create our agarbatti, ensuring a clean and long-lasting burn. Each stick is handcrafted with care, infusing it with aromatic oils and herbs to create a soothing and calming atmosphere.</p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">At the heart of our business is a commitment to quality and sustainability. We strive to minimize our environmental impact by using eco-friendly packaging and sustainable sourcing practices.</p>
+            <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Vision</h2>
+            <p className="font-normal text-base leading-6 text-gray-600 mt-4">At StreamNation, we envision a future where entertainment knows no boundaries. Our mission is to connect audiences worldwide with the best of OTT content, fostering cultural exchange and creativity in the digital age.</p>
+            <p className="font-normal text-base leading-6 text-gray-600 mt-6">We are committed to pushing the boundaries of innovation to deliver unparalleled streaming experiences that captivate and inspire audiences across the globe.</p>
           </div>
           <div className="lg:flex items-center w-full lg:w-1/2 ">
-            <img className="lg:block hidden w-full" src="images/unity.jpg" alt="people discussing on board" />
-            <img className="lg:hidden sm:block hidden w-full h-3/4" src="images/unity.jpg" alt="people discussing on board" />
-            <img className="sm:hidden block w-full" src="images/unity.jpg" alt="people discussing on board" />
+            <img className="lg:block hidden w-full" src="https://img.freepik.com/free-vector/realistic-horizontal-cinema-movie-time-poster-with-3d-glasses-snacks-tickets-clapper-reel-blue-background-with-bokeh-vector-illustration_1284-77013.jpg?t=st=1715189576~exp=1715193176~hmac=285f7ba50e1418c4b869bb4835c701643213441e7aeabd4948ce8c4d4443f9e7&w=1060" alt="people discussing on board" />
+            <img className="lg:hidden sm:block hidden w-full h-3/4" src="https://img.freepik.com/free-vector/realistic-horizontal-cinema-movie-time-poster-with-3d-glasses-snacks-tickets-clapper-reel-blue-background-with-bokeh-vector-illustration_1284-77013.jpg?t=st=1715189576~exp=1715193176~hmac=285f7ba50e1418c4b869bb4835c701643213441e7aeabd4948ce8c4d4443f9e7&w=1060" alt="people discussing on board" />
+            <img className="sm:hidden block w-full" src="https://img.freepik.com/free-vector/realistic-horizontal-cinema-movie-time-poster-with-3d-glasses-snacks-tickets-clapper-reel-blue-background-with-bokeh-vector-illustration_1284-77013.jpg?t=st=1715189576~exp=1715193176~hmac=285f7ba50e1418c4b869bb4835c701643213441e7aeabd4948ce8c4d4443f9e7&w=1060" alt="people discussing on board" />
           </div>
         </div>
       </div>

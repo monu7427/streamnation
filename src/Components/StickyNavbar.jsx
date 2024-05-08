@@ -39,7 +39,7 @@ export default function StickyNavbar() {
                 <div className="w-12 h-12 mr-7">
                   <img
                     className="w-full h-full"
-                    src="/images/Paras.png"
+                    src="./public/images/favicon.ico"
                     alt="Your Company"
                   />
                 </div>

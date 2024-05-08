@@ -1,39 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TruckIcon, StarIcon, ShieldCheckIcon, BadgeCheckIcon } from '@heroicons/react/solid';
 
 const features = [
   {
-    name: 'Fast Delivery',
-    description: 'Get your orders delivered swiftly to your doorstep with our fast delivery service.',
-    icon: TruckIcon,
-  },
-  {
-    name: 'Premium Quality',
-    description: 'Experience the finest quality with our premium agarbatti, crafted for an enriching and lasting fragrance.',
+    name: 'Exclusive Content',
+    description: 'Discover a curated collection of exclusive content available only on our OTT platform.',
     icon: StarIcon,
   },
   {
-    name: 'Fragrance Locked',
-    description: 'Enjoy long-lasting fragrance with our fragrance-locked agarbatti.',
+    name: 'High-Quality Streaming',
+    description: 'Experience high-definition streaming with our state-of-the-art technology infrastructure.',
     icon: ShieldCheckIcon,
   },
   {
-    name: 'Trusted',
-    description: 'Shop with confidence knowing you’re choosing a trusted brand.',
+    name: 'Fast Activation',
+    description: 'Get instant access to your favorite shows and movies with our fast activation process.',
+    icon: TruckIcon,
+  },
+  {
+    name: 'Trusted Platform',
+    description: 'Join millions of satisfied users who trust our platform for their entertainment needs.',
     icon: BadgeCheckIcon,
   },
 ];
 
 const Feature = () => {
+  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [paymentCompleted, setPaymentCompleted] = useState(false);
+
+  const handleSelectPlan = (plan) => {
+    setSelectedPlan(plan);
+  };
+
+  const handleCompletePayment = () => {
+    setPaymentCompleted(true);
+  };
+
   return (
     <div className="bg-slate-200 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="bg-black p-9 rounded lg:text-center text-white">
           <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-          Everything you need for a fragrant experience
+            Elevate Your Entertainment Experience with Our OTT Platform
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-500">
-          Experience the essence of our premium agarbattis, carefully crafted for your moments of tranquility and spiritual connection. Our agarbattis offer a blend of traditional fragrances and modern elegance.
+            Immerse yourself in a world of entertainment with our OTT platform. From exclusive content to high-quality streaming, we have everything you need for an unparalleled viewing experience.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

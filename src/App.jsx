@@ -13,10 +13,14 @@ import OurProduct from './Components/OurProduct';
 import './App.css';
 import ProductDetail from './Components/ProductDetail';
 
+
 function App() {
+
   return (
+    <>
     <Router>
       <StickyNavbar />
+      
       <Routes>
         <Route path="/" element={<Page />} />
         <Route path="/about" element={<About />} />
@@ -24,9 +28,10 @@ function App() {
         <Route path="/product" element={<OurProduct/>} />
         <Route path="/product/:id" element={<ProductDetail/>} />
       </Routes>
-     
-      <Footer />
+      
     </Router>
+    <Footer />
+    </>
   );
 }
 
