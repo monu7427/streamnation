@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { products } from './OurProduct'; // Import the products array
+import { products } from './OurProduct.jsx'; // Import the products array
 
 const ProductDetail = () => {
   const { id } = useParams();

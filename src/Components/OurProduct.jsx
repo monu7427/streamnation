@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Define the products array
-const products = [
+export const products = [
   {
     id: 1,
     name: 'Netflix 4k',
