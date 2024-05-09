@@ -55,7 +55,7 @@ const ProductDetail = () => {
           </div>
         </div>
         <Link
-          to={`https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`}
+          to={`https://wa.me/9351655497?text=${encodeURIComponent(whatsappMessage)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="block w-full text-center bg-gray-800 text-white font-bold py-4 rounded hover:bg-gray-700 mt-6"
