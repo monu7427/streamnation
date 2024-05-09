@@ -38,7 +38,7 @@ const ProductDetail = () => {
         </div>
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <p className="text-lg leading-4 text-gray-800">Price</p>
-          <p className="text-base leading-none text-blue-600">{product.subPrices[selectedDuration]}/-</p>
+          <p className="text-2xl leading-none text-green-600">{product.subPrices[selectedDuration]}&#8377;</p>
         </div>
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <p className="leading-4 text-gray-800 text-lg">Description</p>

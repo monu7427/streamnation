@@ -7,7 +7,7 @@ export const products = [
     id: 1,
     name: 'Netflix 4k (Our Mail)',
     image: 'https://about.netflix.com/images/meta/netflix-symbol-black.png',
-    description: 'Netflix 4k on our mail id , single screen login',
+    description: 'NON STOP WORKING -NO SCREEN BUSY ISSUES -PERSONAL PROFILE NAME AND PIN CANT USED🚨',
     price: '120',
     subPrices: {
       '1month': '125',
@@ -19,19 +19,19 @@ export const products = [
     id: 2,
     name: 'Prime Video 4k (Our Mail)',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Amazon_Prime_Video_blue_logo_1.svg/2048px-Amazon_Prime_Video_blue_logo_1.svg.png',
-    description: 'Primme video 4k , single screen login',
+    description: ' Amazon shopping app is not included. This plan offers access to Amazon Prime for 6 months at a price of ₹119. With this subscription, youll get unlimited access to Prime Video, which includes a vast selection of movies.1 device login.',
     price: '25',
     subPrices: {
       '1month': '25',
-      '12month': '179',
-      '6month': '120'
+      '6month': '120',
+      '12month': '179'
     }
   },
   {
     id: 3,
     name: 'Sony Liv (Your Number)',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLj9bFFpfnB1xAESlmJ2IK3Ixa8XgjYiH0oRjU6Z4jlw&s',
-    description: 'Sony liv (premium) on yournumber , You can login multiple screen ',
+    description: 'his plan offers access to SonyLIV for 12 months at a price of ₹295. With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and SonyLIV originals. 1 device login only. ',
     price: '300',
     subPrices: {
       '6month': '300',
@@ -43,7 +43,7 @@ export const products = [
     id: 4,
     name: 'YouTube Premium (Your Personal Mail)',
     image: 'https://logowik.com/content/uploads/images/youtube-premium8029.logowik.com.webp',
-    description: 'Youtube premium on you personal mail , we will add in youtube family you can ennjoye youtube with your mail id',
+    description: 'This plan offers access to YouTube Premium . With this subscription, youll get ad-free access to YouTube, which includes a vast selection of videos, music, and YouTube originals.',
     price: '190',
     subPrices: {
       '3month': '190',
@@ -56,7 +56,7 @@ export const products = [
     id: 5,
     name: 'Zee 5 (Your Number)',
     image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg',
-    description: '12months Zee 5 HD on your number ,you can login multiple screen',
+    description: 'For the 12 month plan at ₹279, youll get the same great benefits of ZEE5 as the 12 month plan, but for a longer period. 1 device login.    ',
     price: '279',
     subPrices: {
      
@@ -68,7 +68,7 @@ export const products = [
     id: 6,
     name: 'Zee 5 (Our Number)',
     image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg',
-    description: '12months Zee 5 HD on our number ,you can login single screen acounts',
+    description: 'For the 12 month plan at ₹180, youll get the same great benefits of ZEE5 as the 12 month plan, but for a longer period. 1 device login.',
     price: '179',
     subPrices: {
      
@@ -80,7 +80,7 @@ export const products = [
     id: 7,
     name: 'Disney Hotstar 4k (Your Number)',
     image: 'https://i.gadgets360cdn.com/large/disney_plus_hotstar_logo_1583901149861.jpg',
-    description: '12months Disney Hotstar 4k on your number ,you can login multiple screen',
+    description: 'This plan offers access to Disney+ Hotstar for 12 months at a price of ₹1099. With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and Hotstar Specials, along with exclusive Disney+ content such as Marvel movies and shows, 4 device login ',
     price: '1099',
     subPrices: {
      
@@ -92,7 +92,7 @@ export const products = [
     id: 8,
     name: 'Disney Hotstar 4k (Our Number)',
     image: 'https://i.gadgets360cdn.com/large/disney_plus_hotstar_logo_1583901149861.jpg',
-    description: '12months Disney Hotstar 4k on our number ,you can login single screen acounts',
+    description: 'This plan offers access to Disney+ Hotstar for 12 months at a price of ₹449 . With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and Hotstar Specials, along with exclusive Disney+ content such as Marvel movies and shows, 1 device login',
     price: '449',
     subPrices: {
       
@@ -116,7 +116,7 @@ export const products = [
     id: 10,
     name: 'Spotify',
     image: 'https://www.pngall.com/wp-content/uploads/13/Spotify-Logo-PNG-HD-Image.png',
-    description: 'This plan offers access to Spotify Premium for 3 months at a price of ₹119. With this subscription, you ll get adfree access to millions of songs, albums, and playlists, along with the ability to play music offline and skip tracks as much as you want.',
+    description: 'This plan offers access to Spotify Premium. With this subscription, you ll get adfree access to millions of songs, albums, and playlists, along with the ability to play music offline and skip tracks as much as you want.',
     price: '119',
     subPrices: {
       
@@ -128,7 +128,7 @@ export const products = [
     id: 11,
     name: 'Canva Pro',
     image: 'https://www.rdkey.shop/cdn/shop/articles/14.png?v=1704782962',
-    description: 'On your Id. No password required. Activation through link. 100% safe. Take your design game to the next level with Canva  1-year plan at an amazing price of just 149 Rs. With this subscription, you ll have access to a vast library of templates, images, and etc.',
+    description: 'On your Id. No password required. Activation through link. 100% safe. Take your design game to the next level with Canva  1-year plan at an amazing price of just 149 Rs. With this subscription, youll have access to a vast library of templates, images, and etc.',
     price: '149',
     subPrices: {
       
@@ -164,8 +164,8 @@ const OurProduct = () => {
             <div className="border rounded p-4 cursor-pointer">
               <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4" />
               <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-              <p className="text-gray-600 mb-2">starting from</p>
-              <p className="text-blue-500 font-bold text-lg">{product.price}/-</p>
+              <p className="text-gray-600 mb-2">Starting From</p>
+              <p className="text-green-500 font-bold text-lg">{product.price}&#8377;</p>
             </div>
           </Link>
         ))}

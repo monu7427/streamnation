@@ -12,6 +12,7 @@ import Contact from './AllPages/Contact';
 import OurProduct from './Components/OurProduct';
 import './App.css';
 import ProductDetail from './Components/ProductDetail';
+import WhatsappIcon from './Components/WhatsappIcon';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       </Routes>
       
     </Router>
+    <WhatsappIcon/>
     <Footer />
     </>
   );

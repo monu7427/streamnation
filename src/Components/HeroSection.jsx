@@ -16,7 +16,7 @@ export default function HeroSection() {
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-3">Unleash Unlimited Entertainment with StreamNation</h1>
             <h4 className="text-lg md:text-xl mb-3">Embark on a journey of non-stop entertainment with StreamNation! Dive into a world of blockbuster movies, binge-worthy TV series, and captivating documentaries. Our OTT subscription service offers premium content at unbeatable prices, ensuring you never miss out on your favorite shows and movies. Elevate your streaming experience with StreamNation today!</h4>
-            <a href="#" className="inline-block px-6 py-3 bg-white text-black rounded-full hover:bg-gray-200">Get Started</a>
+            <a href="https://wa.me/9351655497?text=Heyy.. StreamNation i want to buy " className="inline-block px-6 py-3 bg-white text-black rounded-full hover:bg-gray-200">Get Started</a>
           </div>
         </div>
       </div>

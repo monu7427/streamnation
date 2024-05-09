@@ -24,12 +24,7 @@ const Footer = () => {
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
-              <li>
-                <a href="">Report Fraud</a>
-              </li>
-              <li>
-                <a href="">Refund Policy</a>
-              </li>
+             
             </ul>
           </div>
 
@@ -52,11 +47,11 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8">
-          <a href="https://www.instagram.com/streamnation_12/" className="mr-4">
+          <a href="https://wa.me/9351655497?text= hey.. StreamNation OTT" className="mr-4">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
           
-          <a href="#" className="mr-4">
+          <a href="https://www.instagram.com/streamnation_12/" className="mr-4">
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           
