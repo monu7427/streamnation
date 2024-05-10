@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { products } from './OurProduct'; // Import the products array
-import OurProduct from './OurProduct';
+import { products } from './ApiData';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -13,6 +12,10 @@ const ProductDetail = () => {
   };
 
   const whatsappMessage = `Hello sir, I want to buy ${product.name} ${selectedDuration} ${product.subPrices[selectedDuration]}/-`;
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []); 
 
   if (!product) {
     return (
@@ -28,8 +31,8 @@ const ProductDetail = () => {
   return (
     <div className="md:flex items-start justify-center py-12 2xl:px-20 md:px-6 px-4">
       <div className="xl:w-2/6 lg:w-2/5 w-full md:w-auto">
-  <img className="w-full h-auto" alt={product.name} src={product.image} />
-</div>
+        <img className="w-full h-auto" alt={product.name} src={product.image} />
+      </div>
 
       <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
         <div className="border-b border-gray-200 pb-6">
