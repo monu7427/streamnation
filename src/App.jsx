@@ -13,6 +13,7 @@ import OurProduct from './Components/OurProduct';
 import './App.css';
 import ProductDetail from './Components/ProductDetail';
 import WhatsappIcon from './Components/WhatsappIcon';
+import RefundPolicy from './AllPages/RefundPolicy';
 
 
 function App() {
@@ -27,12 +28,13 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/product" element={<OurProduct/>} />
-        <Route path="/product/:id" element={<ProductDetail/>} />
+        <Route path="/product/:id" exact element={<ProductDetail/>} />
+        <Route path='/RefundPolicy' element={<RefundPolicy/>}/>
       </Routes>
-      
+      <WhatsappIcon/>
+      <Footer />
     </Router>
-    <WhatsappIcon/>
-    <Footer />
+   
     </>
   );
 }

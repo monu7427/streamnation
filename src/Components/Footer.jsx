@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   
@@ -16,7 +17,7 @@ const Footer = () => {
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <ul className="text-slate-500">
               <li>
-                <a href="/">Home</a>
+               <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="/about">About Us</a>
@@ -24,6 +25,10 @@ const Footer = () => {
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
+              <li>
+                <a href="/RefundPolicy">Refund policy</a>
+              </li>
+             
              
             </ul>
           </div>
