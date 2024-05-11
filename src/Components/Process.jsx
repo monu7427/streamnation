@@ -21,8 +21,9 @@ const Process = () => {
 
   return (
     <div className="w-full bg-black text-white py-12">
+         <h2 className="text-2xl font-bold mb-8 text-white text-center">Process to Buy Subscription</h2>
       <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold mb-4 text-black">Process to Buy Subscription:</h2>
+       
         <ol className="list-decimal pl-6 mb-6">
           <li className="text-black">Select the subscription you want</li>
           <li className="text-black">Pay using my UPI ID or QR Code- price of Subscription</li>

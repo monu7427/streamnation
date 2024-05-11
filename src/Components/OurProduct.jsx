@@ -8,7 +8,7 @@ import { products } from './ApiData';
 const OurProduct = () => {
   return (
     <section className="container mx-auto py-16 mb-4">
-      <h2 className="text-3xl font-bold mb-8 bg-black text-white p-9 flex align-center justify-center">Our Services</h2>
+      <h2 className="text-3xl font-bold mb-8 bg-black text-white p-9 flex align-center justify-center">Our Subscription</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 m-14">
         {products.map(product => (
           <Link to={`/product/${product.id}`} key={product.id} className="text-black">
