@@ -25,14 +25,15 @@ const Process = () => {
         <h2 className="text-2xl font-bold mb-4 text-black">Process to Buy Subscription:</h2>
         <ol className="list-decimal pl-6 mb-6">
           <li className="text-black">Select the subscription you want</li>
-          <li className="text-black">Click the "Get Deal" button to redirect to my WhatsApp number</li>
-          <li className="text-black">Pay using my UPI ID or QR Code</li>
-          <li className="text-black">After payment, your subscription will be activated</li>
+          <li className="text-black">Pay using my UPI ID or QR Code- price of Subscription</li>
+          <li className="text-black">Send me Screenshot of payment with which subscription you want.</li>
+          <li className="text-black">After payment, i will activate your acount to subscription or i give id password if subscription on our mail, number.</li>
+          <li className='bg-gray-200 text-green-600'>Also You can contact me if you have any Query</li>
         </ol>
         <div className="flex items-center mb-4">
-          <p className="text-sm mr-2 text-black ml-5">UPI ID:</p>
+          <p className="text-sm mr-2 text-black ml-5 font-mono">UPI ID:</p>
           <div className='bg-slate-300 flex rounded-lg'>
-            <p className="text-lg ml-2 text-black bg-slate-300">streamnation@ybl</p>
+            <p className="text-lg ml-2 text-black bg-slate-300 font-mono">streamnation@ybl</p>
             <button onClick={copyUPI} 
             id='Copy' className={` bg-slate-400 text-white ml-2 px-2 py-1  hover:bg-gray-600 focus:border-black focus:bg-green-600 `}>Copy</button>
           </div>
@@ -46,7 +47,7 @@ const Process = () => {
           )}
           <button onClick={() => setShowQR(!showQR)} className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 focus:outline-none focus:bg-gray-800">{showQR ? 'Hide QR' : 'Show QR'}</button>
         </div>
-        <button onClick={handleGetDeal} className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 focus:outline-none focus:bg-gray-800">Get Deal</button>
+        <button onClick={handleGetDeal} className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 focus:outline-none focus:bg-gray-800">Send Pay Proof</button>
       </div>
     </div>
   );
