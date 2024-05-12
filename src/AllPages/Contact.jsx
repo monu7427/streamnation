@@ -1,8 +1,26 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 export default function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []); 
     return (
         <>
+        
+        <Helmet>
+        <title>Contact-StreamNation</title>
+        <meta name="description" content="Contact StreamNation for any inquiries or feedback. We're here to assist you with your streaming needs." />
+        <meta name="keywords" content="StreamNation, contact, support, streaming, customer service" />
+        <meta name="author" content="Your Manoj Sharma" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Contact-StreamNation" />
+        <meta property="og:description" content="Contact StreamNation for any inquiries or feedback. We're here to assist you with your streaming needs." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://streamnation.xyz/contact" />
+        <meta name="twitter:title" content="Contact-StreamNation" />
+        <meta name="twitter:description" content="Contact StreamNation for any inquiries or feedback. We're here to assist you with your streaming needs." />
+      </Helmet>
             <div className="py-4 lg:py-8  relative">
                 <img src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden" alt="Agarbatti Background" />
                 <div className="xl:mx-auto xl:container  relative ">
