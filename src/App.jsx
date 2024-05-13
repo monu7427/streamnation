@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>StreamNation - OTT services</title>
+        <title>StreamNation - Home </title>
         <meta name="description" content="Get affordable OTT (Over-The-Top) services and software subscriptions at discounted rates. Your go-to destination for high-quality entertainment and productivity tools." />
         <meta name="keywords" content="OTT, Over-The-Top, streaming, software, subscription, cheap, affordable, entertainment, productivity" />
         <meta name="author" content="Manoj Sharma" />

@@ -6,6 +6,7 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import About from "../AllPages/About";
 
 const Footer = () => {
   return (
@@ -20,13 +21,14 @@ const Footer = () => {
                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                
+                <Link to="/about">About </Link>
               </li>
               <li>
-                <a href="/contact">Contact Us</a>
+                <Link to="/contact">Contact </Link>
               </li>
               <li>
-                <a href="/RefundPolicy">Refund policy</a>
+                <Link to="/RefundPolicy"> RefundPolicy </Link>
               </li>
              
              
@@ -52,7 +54,7 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8">
-          <a href="https://wa.me/9351655497?text= Hello, I recently visited your website and I'm interested in learning more about what you offer. Could you please provide me with some information?" className="mr-4">
+          <a href="https://wa.me/9351655497?text= Hello, I recently visited your website and I'm interested to know more about what you offer. Could you please provide me with some information?" className="mr-4">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
           
