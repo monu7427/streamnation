@@ -14,7 +14,9 @@ const Process = () => {
     const upiID = 'streamnation@ybl';
     navigator.clipboard.writeText(upiID);
     var Btn = document.getElementById('Copy');
+    var upi = document.getElementById('Upi');
     Btn.innerText="Copied";
+    upi.style.color = "#047857"
     
     
   };
@@ -34,7 +36,7 @@ const Process = () => {
         <div className="flex items-center mb-4">
           <p className="text-sm mr-2 text-black ml-5 font-mono">UPI ID:</p>
           <div className='bg-slate-300 flex rounded-lg'>
-            <p className="text-lg ml-2 text-black bg-slate-300 font-mono">streamnation@ybl</p>
+            <p id='Upi' className=" text-lg ml-2 text-black bg-slate-300 font-mono">streamnation@ybl</p>
             <button onClick={copyUPI} 
             id='Copy' className={` bg-slate-400 text-white ml-2 px-2 py-1  hover:bg-gray-600 focus:border-black focus:bg-green-600 `}>Copy</button>
           </div>

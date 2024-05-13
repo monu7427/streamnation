@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { products } from './ApiData';
+import { Helmet } from 'react-helmet';
 
 const ProductDetail = () => {
+  
   const { id } = useParams();
   const product = products.find(p => p.id === parseInt(id, 10)); // Parse the ID to base 10
   const [selectedDuration, setSelectedDuration] = useState(Object.keys(product.subPrices)[0]); // Default to the first available duration
@@ -11,7 +13,7 @@ const ProductDetail = () => {
     setSelectedDuration(duration);
   };
 
-  const whatsappMessage = `Hello sir, I want to buy ${product.name} ${selectedDuration} ${product.subPrices[selectedDuration]}/-`;
+  const whatsappMessage = `Hello sir, I want to buy ${product.name} ${selectedDuration} ${product.subPrices[selectedDuration]}/- (From Website)`;
 
   useEffect(() => {
     window.scrollTo(0, 0); 
@@ -30,6 +32,14 @@ const ProductDetail = () => {
 
   return (
     <div className="md:flex items-start justify-center py-12 2xl:px-20 md:px-6 px-4">
+      <Helmet>
+        
+      <title>{product.name}</title>
+        <meta name="description" content="Explore our affordable OTT (Over-The-Top) services and software subscriptions. Get access to a wide range of entertainment and productivity tools at discounted rates." />
+        <meta name="keywords" content="OTT, Over-The-Top, streaming, software, subscription, cheap, affordable, entertainment, productivity, services" />
+        <meta name="author" content="Manoj Sharma" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="xl:w-2/6 lg:w-2/5 w-full md:w-auto">
         <img className="w-full h-auto" alt={product.name} src={product.image} />
       </div>
@@ -44,26 +54,27 @@ const ProductDetail = () => {
           <p className="text-2xl leading-none text-green-600">{product.subPrices[selectedDuration]}&#8377;</p>
         </div>
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
-          <p className="leading-4 text-gray-800 text-lg">Description</p>
-          <p className="text-base leading-none text-gray-600 p-6">{product.description}</p>
-        </div>
-        <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <p className="leading-4 text-gray-800 text-lg">Select Duration</p>
           <div>
-            <select value={selectedDuration} onChange={(e) => handleDurationChange(e.target.value)}>
+            <select className="text-lg px-4" value={selectedDuration} onChange={(e) => handleDurationChange(e.target.value)}>
               {Object.keys(product.subPrices).map(duration => (
                 <option key={duration} value={duration}>{duration}</option>
               ))}
             </select>
           </div>
         </div>
+        <div className="py-4 border-b border-gray-200 ">
+          <p className="leading-4 text-gray-800 text-lg">Description</p>
+          <p className="text-base leading-none text-gray-400 p-6">{product.description}</p>
+        </div>
+      
         <Link
           to={`https://wa.me/9351655497?text=${encodeURIComponent(whatsappMessage)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="block w-full text-center bg-gray-800 text-white font-bold py-4 rounded hover:bg-gray-700 mt-6"
         >
-          Get Deal
+          Buy Now
         </Link>
         <div className="py-4">
           <p className="text-base leading-4 text-gray-600 mt-4">Service Code: {product.id}</p>
