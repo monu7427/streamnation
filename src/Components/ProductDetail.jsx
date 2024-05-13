@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 
 const ProductDetail = () => {
   
+  
   const { id } = useParams();
   const product = products.find(p => p.id === parseInt(id, 10)); // Parse the ID to base 10
   const [selectedDuration, setSelectedDuration] = useState(Object.keys(product.subPrices)[0]); // Default to the first available duration
@@ -13,7 +14,8 @@ const ProductDetail = () => {
     setSelectedDuration(duration);
   };
 
-  const whatsappMessage = `Hello sir, I want to buy ${product.name} ${selectedDuration} ${product.subPrices[selectedDuration]}/- (From Website)`;
+  const whatsappMessage = `Good day! I'm interested in purchasing ${product.name} for ${selectedDuration}  at a rate of ${product.subPrices[selectedDuration]}/- each (as seen on the website). Could you please provide further details? Thank you.`;
+
 
   useEffect(() => {
     window.scrollTo(0, 0); 

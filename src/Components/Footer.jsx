@@ -52,7 +52,7 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8">
-          <a href="https://wa.me/9351655497?text= hey.. StreamNation OTT" className="mr-4">
+          <a href="https://wa.me/9351655497?text= Hello, I recently visited your website and I'm interested in learning more about what you offer. Could you please provide me with some information?" className="mr-4">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
           

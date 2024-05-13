@@ -2,7 +2,8 @@ import React from 'react';
 
 const WhatsappIcon = () => {
   const whatsappNumber = "9351655497";
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text= 'Hello! . I came across your website and I'm curious to learn more. Could you provide additional information?'`;
+
 
   return (
     <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
