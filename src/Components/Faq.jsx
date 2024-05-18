@@ -3,22 +3,39 @@ import React, { useState } from "react";
 
 const faqData = [
     {
-        question: "Why should I use your service?",
-        answer: "If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.",
+        question: "Why should I use StreamNation?",
+        answer: "StreamNation offers the most affordable OTT subscriptions, allowing you to enjoy your favorite streaming services at a fraction of the cost. Our service is convenient and reliable, ensuring you get access to the best entertainment without breaking the bank."
     },
     {
-        question: "What payment method I can use?",
-        answer: "If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.",
+        question: "What payment methods can I use?",
+        answer: "Using UPI ID and QR scanner, you can make payments easily and securely."
     },
     {
         question: "Is your service safe to use?",
-        answer: "If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.",
+        answer: "Yes, StreamNation is safe and secure to use. We provide replacement services, and after payment, you will receive your subscription within a few minutes."
     },
     {
-        question: "How to recover password?",
-        answer: "If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.",
+        question: "How do I subscribe to an OTT service through StreamNation?",
+        answer: "Subscribing to an OTT service through StreamNation is simple. Contact us with your preferred OTT service and subscription plan, and provide your payment details. We will set up the subscription on either our number or your number, based on your preference."
     },
+    {
+        question: "Can I use the subscription on my personal account?",
+        answer: "Yes, you can choose to have the subscription set up on your personal account. Simply provide us with the necessary details and we'll handle the rest, ensuring you have uninterrupted access to your chosen OTT service."
+    },
+    {
+        question: "How do I recover my password?",
+        answer: "If you need to recover your password, follow the standard recovery process of the respective OTT service. If you face any issues, our customer support team is here to help you through the process."
+    },
+    {
+        question: "What OTT services do you support?",
+        answer: "StreamNation supports a wide range of OTT services including Netflix, Amazon Prime Video, Disney Hotstar, Zee5, Sony Liv, JioCinema, and many more. Contact us for a full list of available services."
+    },
+    {
+        question: "How do I contact customer support?",
+        answer: "You can reach our customer support team via phone, email, or through our website's contact form. We are always here to assist you with any questions or issues you may have."
+    }
 ];
+
 
 export default function Faq() {
     const [openIndexes, setOpenIndexes] = useState([]);
@@ -38,8 +55,8 @@ export default function Faq() {
             
             <div>
                 <img src="https://i.ibb.co/DQ4FZhL/pattern-bg.png" alt="blue pattern background" className="absolute w-full h-64 md:h-96 object-center object-fit z-0" />
-                <div className="relative flex flex-col items-center justify-center sm:px-0 px-6 z-0 pb-32"> {/* Changed z-20 to z-0 */}
-                    <div className="md:py-36 py-20">
+                <div className="relative flex flex-col items-center justify-center sm:px-0 px-6 z-0 pb-28"> {/* Changed z-20 to z-0 */}
+                    <div className="md:py-36 py-16">
                         <h1 role="heading" className="xl:text-5xl md:text-3xl text-xl font-bold leading-10 text-white">
                             Frequently asked questions
                         </h1>

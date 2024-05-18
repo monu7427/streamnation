@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>StreamNation - Home </title>
+        <title>StreamNation-Home </title>
         <meta name="description" content="StreamNation - Get the cheapest subscriptions for streaming services at StreamNation. Explore our affordable plans for movies, TV shows, paid software, and more, including Netflix, Amazon Prime, Hotstar, Zee5, Sony Liv, JioCinema, and more."/>
   <meta name="keywords" content="subscription, netflix subscription, netflix, prime, prime subscription, amazon subscription, hotstar subscription, amazon prime, amazon prime subscription, zee5, zee5 subscription, netflix subscription price, ott subscription, jio subscription, prime video subscription, subscriptions, prime video, sony liv subscription, sony liv, netflix india subscription, prime subscription price, disney hotstar, disney hotstar subscription, amazon subscription price, subscription meaning, flyer hotstar subscription, jiocinema subscription promo code, jiocinema subscription free, etv win subscription, jiocinema subscription plan, jio cinema subscription offer, jiocinema subscription, jiocinema subscription plans, jio cinema subscription plans, watcho, watcho subscription, hotstar subscription plans for tv, midjourney subscription, ottplay, crunchyroll, crunchyroll subscription, ps plus subscription, amazon prime subscription plan for tv, google one subscription, microsoft 365 subscription, udemy subscription, chaupal subscription"/>
   <meta name="author" content="Manoj Sharma"/>
