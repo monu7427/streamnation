@@ -11,7 +11,7 @@ function About() {
     <Helmet>
         <title>About-StreamNation</title>
         <meta name="description" content="StreamNation is your go-to destination for streaming content. Discover the latest movies, TV shows, and more." />
-        <meta name="keywords" content="StreamNation, streaming, movies, TV shows, entertainment" />
+        <meta name="keywords" content="StreamNation,cheap ott subscription streaming, movies, TV shows, entertainment" />
         <meta name="author" content="Your Manoj Sharma" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="About-StreamNation" />

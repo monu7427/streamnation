@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection'
 import ImageSlider from './Components/ImageSlider'
 import OurProduct from './Components/OurProduct'
 import Process from './Components/Process'
+import Faq from './Components/Faq'
 
 function Page() {
   return (
@@ -14,6 +15,7 @@ function Page() {
         <Process/>
         <Feature/>
         <HeroSection/>
+        <Faq/>
 
     </div>
   )
