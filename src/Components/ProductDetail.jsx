@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { products } from './ApiData';
 import { Helmet } from 'react-helmet';
+import Process from './Process';
 
 const ProductDetail = () => {
   
@@ -33,6 +34,7 @@ const ProductDetail = () => {
   }
 
   return (
+    <>
     <div className="md:flex items-start justify-center py-12 2xl:px-20 md:px-6 px-4">
       <Helmet>
         
@@ -71,7 +73,7 @@ const ProductDetail = () => {
         </div>
       
         <Link
-          to={`https://wa.me/9351655497?text=${encodeURIComponent(whatsappMessage)}`}
+          to={`https://wa.me/9079179449?text=${encodeURIComponent(whatsappMessage)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="block w-full text-center bg-gray-800 text-white font-bold py-4 rounded hover:bg-gray-700 mt-6"
@@ -81,9 +83,12 @@ const ProductDetail = () => {
         <div className="py-4">
           <p className="text-base leading-4 text-gray-600 mt-4">Service Code: {product.id}</p>
         </div>
+        
       </div>
       
     </div>
+    <Process/>
+    </>
   );
 };
 

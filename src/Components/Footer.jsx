@@ -47,14 +47,14 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-bold mb-4">Contact Us</h4>
             <p className="text-slate-500">Pratapnagar, Jaipur, Rajasthan</p>
-            <p className="text-slate-500 cursor-pointer">+91 9351655497</p>
-            <p className="text-slate-500 cursor-pointer">streamnation_12@gmail.com</p>
+            <p className="text-slate-500 cursor-pointer">+91 9079179449</p>
+            <p className="text-slate-500 cursor-pointer">streamnation12@gmail.com</p>
           </div>
         </div>
 
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8">
-          <a href="https://wa.me/9351655497?text= Hello, I recently visited your website and I'm interested to know more about what you offer. Could you please provide me with some information?" className="mr-4">
+          <a href="https://wa.me/9079179449?text= Hello, I recently visited your website and I'm interested to know more about what you offer. Could you please provide me with some information?" className="mr-4">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
           

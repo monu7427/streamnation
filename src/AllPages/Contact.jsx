@@ -38,7 +38,7 @@ export default function Contact() {
                                         </div>
                                         <div className="mt-4 md:mt-8">
                                             <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Contact</h2>
-                                            <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">Phone: 9351655497</h2>
+                                            <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">Phone: 9079179449</h2>
                                         </div>
                                         <div className="mt-4 md:mt-8">
                                             <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Email</h2>

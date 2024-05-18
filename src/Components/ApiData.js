@@ -111,7 +111,7 @@ export const products = [
     {
       id: 10,
       name: 'Spotify',
-      image: 'https://www.pngall.com/wp-content/uploads/13/Spotify-Logo-PNG-HD-Image.png',
+      image: 'https://pixabay.com/get/g20d40fe624a1be37ced9b72d44ce9207a59dfd6f1f73ca6667681bccf1f98d59dc92cc3e076ff65de8df7496b0430175d932a0933236f2150bb62b60e14ebc1b883e3501dbfed8bae36033f78dc02da6_640.jpg',
       description: 'This plan offers access to Spotify Premium. With this subscription, you ll get adfree access to millions of songs, albums, and playlists, along with the ability to play music offline and skip tracks as much as you want.',
       price: '119',
       subPrices: {

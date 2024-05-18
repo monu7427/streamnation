@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import StickyNavbar from './Components/StickyNavbar';
 import Footer from './Components/Footer';
 import { Helmet } from 'react-helmet';
-
+import Coupans from './AllPages/Coupans';
 import Page from './Page';
 import About from './AllPages/About';
 import Contact from './AllPages/Contact';
@@ -29,6 +29,7 @@ function App() {
           <Route path="/" element={<Page />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/coupons" element={<Coupans/>} />
           <Route path="/product" element={<OurProduct />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/refundpolicy" element={<RefundPolicy />} />
