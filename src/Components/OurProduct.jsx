@@ -39,7 +39,7 @@ const OurProduct = () => {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 m-14">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 m-14">
           {filteredProducts.map(product => (
             <Link to={`/product/${product.id}`} key={product.id} className="text-black">
               <div className="border rounded p-4 cursor-pointer">
