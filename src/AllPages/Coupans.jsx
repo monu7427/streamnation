@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { FiCopy, FiCheck } from 'react-icons/fi';
 
 const CouponCode = () => {
+  
+useEffect(()=>{
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+},[])
   const [copied, setCopied] = useState({ stream5: false, primeVideo: false });
   const couponCodes = {
     stream5: 'STREAM5%',
