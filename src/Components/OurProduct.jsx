@@ -19,6 +19,12 @@ const OurProduct = () => {
     );
   }, [searchTerm]);
 
+  const handleSearchFocus = () => {
+    setTimeout(() => {
+      window.scrollBy({ top: -10, behavior: 'smooth' }); // Scroll up by 50 pixels
+    }, 100); // Adjust delay as needed
+  };
+
   return (
     <>
       <Helmet>
@@ -37,12 +43,13 @@ const OurProduct = () => {
             className="border rounded p-2 md:w-1/2 w-full mx-7"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onFocus={handleSearchFocus}
           />
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 m-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-4 sm:p-6 md:p-8 lg:p-14">
           {filteredProducts.map(product => (
             <Link to={`/product/${product.id}`} key={product.id} className="text-black">
-              <div className="border rounded p-4 cursor-pointer">
+              <div className="border rounded p-4 cursor-pointer hover:shadow-lg">
                 <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-2">Starting From</p>
