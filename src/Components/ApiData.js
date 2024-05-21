@@ -111,7 +111,7 @@ export const products = [
     {
       id: 10,
       name: 'Spotify',
-      image: 'https://pixabay.com/get/g20d40fe624a1be37ced9b72d44ce9207a59dfd6f1f73ca6667681bccf1f98d59dc92cc3e076ff65de8df7496b0430175d932a0933236f2150bb62b60e14ebc1b883e3501dbfed8bae36033f78dc02da6_640.jpg',
+      image: 'https://media.wired.com/photos/5927001eaf95806129f51539/master/w_2560%2Cc_limit/spotify-logo-zoom-s.jpg',
       description: 'This plan offers access to Spotify Premium. With this subscription, you ll get adfree access to millions of songs, albums, and playlists, along with the ability to play music offline and skip tracks as much as you want.',
       price: '119',
       subPrices: {
@@ -125,10 +125,10 @@ export const products = [
       name: 'Canva Pro',
       image: 'https://www.rdkey.shop/cdn/shop/articles/14.png?v=1704782962',
       description: 'On your Id. No password required. Activation through link. 100% safe. Take your design game to the next level with Canva  1-year plan at an amazing price of just 149 Rs. With this subscription, youll have access to a vast library of templates, images, and etc.',
-      price: '149',
+      price: '199',
       subPrices: {
         
-        '12month' : '149'
+        '12month' : '199'
         
       }
     },
@@ -142,6 +142,34 @@ export const products = [
         
         '6month' : '549',
         '12month' : '4700'
+        
+        
+      }
+    },
+    {
+      id: 13,
+      name: 'Ullu ',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59vde_JxCA9i2vD7SdAeqOAy9NrqfLl1nF8AR5mOx-A&s',
+      description: 'Ullu single device login sharing plan cant change password',
+      price: '249',
+      subPrices: {
+        
+        
+        '12month' : '249'
+        
+        
+      }
+    },
+    {
+      id: 14,
+      name: 'Ullu ',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59vde_JxCA9i2vD7SdAeqOAy9NrqfLl1nF8AR5mOx-A&s',
+      description: 'Ullu multi device login private plan can change password',
+      price: '399',
+      subPrices: {
+        
+        
+        '12month' : '399'
         
         
       }
