@@ -34,7 +34,7 @@ const OurProduct = () => {
           <input
             type="text"
             placeholder="Search services..."
-            className="border rounded p-2 md:w-1/2 w-full mx-7"
+            className="border rounded p-2 md:w-1/2 w-full mx-7 bg-black text-yellow-300 placeholder-yellow-300 text-center"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
