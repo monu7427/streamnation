@@ -174,6 +174,20 @@ export const products = [
         
       }
     },
+    {
+      id: 15,
+      name: 'Coursera ',
+      image: '',
+      description: 'Coursera premium 6 months On your mail ,private account, premium invite, 75+ corses 100% premium',
+      price: '249',
+      subPrices: {
+        
+        
+        '6month' : '249'
+        
+        
+      }
+    },
     
     // Add more product objects here
   ];
