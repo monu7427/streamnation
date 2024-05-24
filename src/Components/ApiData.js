@@ -113,10 +113,10 @@ export const products = [
       name: 'Spotify',
       image: 'https://media.wired.com/photos/5927001eaf95806129f51539/master/w_2560%2Cc_limit/spotify-logo-zoom-s.jpg',
       description: 'This plan offers access to Spotify Premium. With this subscription, you ll get adfree access to millions of songs, albums, and playlists, along with the ability to play music offline and skip tracks as much as you want.',
-      price: '119',
+      price: '199',
       subPrices: {
         
-        '3month' : '119'
+        '3month' : '199'
         
       }
     },
@@ -176,8 +176,8 @@ export const products = [
     },
     {
       id: 15,
-      name: 'Coursera ',
-      image: '',
+      name: 'Coursera premium',
+      image: 'https://about.coursera.org/static/whiteCoursera-23ec484f7091914430ce19b07d09aedf.svg',
       description: 'Coursera premium 6 months On your mail ,private account, premium invite, 75+ corses 100% premium',
       price: '249',
       subPrices: {
