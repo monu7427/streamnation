@@ -188,6 +188,21 @@ export const products = [
         
       }
     },
+    {
+      id: 16,
+      name: 'Adobe Creative Cloud All Apps',
+      image: 'https://i.ytimg.com/vi/nLa-Q9nxva0/maxresdefault.jpg',
+      description: 'The Creative Cloud All Apps plan offers you more than 20 creative apps, including Photoshop, Illustrator, Premiere Pro, After Effects, InDesign, and Acrobat. You also get social media templates, cloud storage, thousands of Adobe Fonts, and access to Adobe Portfolio and Behance',
+      price: '699',
+      subPrices: {
+        
+        
+        '1month' : '699',
+        '12month' : '7999'
+        
+        
+      }
+    },
     
     // Add more product objects here
   ];
