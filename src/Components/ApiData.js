@@ -203,6 +203,19 @@ export const products = [
         
       }
     },
-    
+    {
+      id: 17,
+      name: 'Brazzers ',
+      image: 'https://logos-world.net/wp-content/uploads/2021/09/Brazzers-Logo.png',
+      description: 'Brazzers 1month on our mail i will provide 1month warrnty ',
+      price: '299',
+      subPrices: {
+        
+        
+        '1month' : '299',
+                
+        
+      }
+    },
     // Add more product objects here
   ];
