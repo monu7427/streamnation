@@ -217,5 +217,33 @@ export const products = [
         
       }
     },
+    {
+      id: 18,
+      name: 'ChatGPT-Plus  ',
+      image: 'https://www.togetherbe.com/wp-content/uploads/2023/06/What-is-ChatGPT-plus.webp',
+      description: 'ChatGPT Plus allows users to upload spreadsheets, PowerPoint presentations, research papers, PDFs and even photos. The feature is really useful as you can ask the chatbot to create a visual graph of numbers from an excel spreadsheet or proofread a certain document.',
+      price: '749',
+      subPrices: {
+        
+        
+        '1month' : '749',
+                
+        
+      }
+    },
+    {
+      id: 19,
+      name: 'Microsoft Office 365',
+      image: 'https://download.logo.wine/logo/Office_365/Office_365-Logo.wine.png',
+      description: ' 𝐀𝐥𝐥 𝐀𝐩𝐩𝐬 - 𝐖𝐨𝐫𝐝,𝐄𝐱𝐜𝐞𝐥,𝐏𝐨𝐰𝐞𝐫𝐩𝐨𝐢𝐧𝐭,𝐀𝐜𝐜𝐞𝐬𝐬 𝐚𝐭 𝐨𝐧𝐞 𝐩𝐥𝐚𝐜𝐞 𝐀𝐜𝐜𝐞𝐬𝐬 𝐲𝐨𝐮𝐫 𝐨𝐟𝐟𝐢𝐜𝐞 𝐚𝐧𝐲𝐰𝐡𝐞𝐫𝐞, 𝐚𝐧𝐲𝐭𝐢𝐦𝐞 𝐀𝐛𝐬𝐨𝐥𝐮𝐭𝐞 𝐅𝐥𝐞𝐱𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐄𝐱𝐜𝐞𝐥𝐥𝐞𝐧𝐭 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐓𝐨𝐨𝐥𝐬 𝐄𝐧𝐡𝐚𝐧𝐜𝐞𝐝 𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐯𝐢𝐭𝐲 𝐈𝐦𝐩𝐫𝐨𝐯𝐞 𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐄𝐧𝐠𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐮𝐬𝐭𝐨𝐦𝐢𝐬𝐚𝐛𝐥𝐞 𝐀𝐩𝐩𝐬 𝐦 𝐬𝐨 𝐨𝐧 will provide 1 year warrenty , MAC Android Windows ,onedrive-1/5tb , Devices -5 ',
+      price: '1099',
+      subPrices: {
+        
+        
+        '1month' : '1099',
+                
+        
+      }
+    },
     // Add more product objects here
   ];
