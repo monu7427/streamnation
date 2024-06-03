@@ -240,7 +240,21 @@ export const products = [
       subPrices: {
         
         
-        '1month' : '1099',
+        '12month' : '1099',
+                
+        
+      }
+    },
+    {
+      id: 19,
+      name: 'Aha (On Your Number)',
+      image: 'https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Aha-subscription.png',
+      description: 'aha is Indias Premium OTT Sevice to Watch Movies, Web Series, TV Shows, Live TV Channels in Telugu & Tamil. Watch In HD and 4K Quality Content.',
+      price: '90',
+      subPrices: {
+        
+        
+        '3month' : '90',
                 
         
       }
