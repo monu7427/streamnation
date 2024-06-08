@@ -2,53 +2,64 @@ import React, { useState } from 'react';
 
 const reviews = [
     {
-        name: "Riya",
-        review: "Hey, just wanted to drop a quick message about StreamNation. It's legit amazing! Super cheap OTT subscriptions and they're totally genuine. Highly recommend!",
+        name: "Yashu D",
+        review: `It's an amazing experience.. there are many scammers in market but they are genuine sellers.
+I'll recommend my friend as well for buy subscription from them.`,
         rating: 5
     },
     {
-        name: "Karan",
-        review: "Yo, stumbled upon StreamNation and it's been a game-changer! Legit subscriptions at killer prices. Been using it for months now, no complaints! Plus, their customer support is 👌",
+        name: "Girraj",
+        review: `First time i tried to purchase Premium for Youtube and yes they given the subscription for the same. They taken a time but yes they also give response on whatsapp. Trustworthy and excellent service. thanks bro`,
         rating: 4
     },
     {
-        name: "Anushka",
-        review: "OMG, StreamNation is lit! Affordable, genuine subscriptions making my streaming life so easy. Totally worth it! 🙌",
+        name: "Javed Ali",
+        review: `It's great experience. With I have purchased Prime it's smooth experience with no screen busy problem and personal profile..`,
         rating: 5
     },
     {
-        name: "Aryan",
-        review: "Dude, StreamNation is a lifesaver for broke college students like us! Genuine subs at unbeatable prices. Can't imagine life without it now! 😎",
+        name: "Ajay Chawla",
+        review: `Maine aise 1 ,2 logo se liya hai lekin unme koi na koi issue tha hi ek Month ke liye diye the lekin uske bad nahi diye ispe se mai last 9 ,10 Month se le raha hu...abhi tak koi issue wagera nahi hua .hai .. or har bar time par mila hai halaki time lete hai thoda lekin de dete hai ott subscription abhi tak ek bar bhi miss nahi kiya rahega . Thanks StreamNation
+
+Suggestion- aap anime fan ke liye bhi ott lao ..jaise Crucyroll ka subscription bahot dino se chahata hu`,
         rating: 5
     },
     {
-        name: "Priya",
-        review: "Hey, just wanted to say StreamNation rocks! Legit subs at affordable rates. Super reliable and their support team is always there to help. 4 stars from me!",
+        name: "Vinnu sahu",
+        review: `Admired his honesty. I paid amount for hotstar and due to personal emergency I didn't ask account details. Two months later I asked about subscription. He shared account details without any second thought. To be honest I didn't expect this kind of response from him
+Genuine guy and true professionalism
+Thanks
+`,
         rating: 4
     },
     {
-        name: "Rohit",
-        review: "Bro, StreamNation is my go-to for OTT needs. Genuine subs at the best prices. Been using it for ages, never disappointed! ✌️",
+        name: "Yash Panwar",
+        review: `Very much satisfied, ik that there are many scammers but ima give u guys my word that this guys are legit and they know how to talk and maintain a good relationship with the customers 🤝❤️`,
         rating: 5
     },
     {
-        name: "Neha",
-        review: "Hey, StreamNation has changed my life! Affordable subs and super reliable service. 5 stars all the way! 🌟",
+        name: "Amit Jha",
+        review: `As fast as light
+lightening speed delivery of your orders`,
         rating: 5
     },
     {
-        name: "Vivek",
-        review: "Hey, tried a bunch of OTT subs, but StreamNation is legit the best! Unbeatable prices and top-notch service. 5/5 for sure! 👍",
+        name: "Talluri Sudheer",
+        review: `It's a very genuine service and person...i am taking and using Netflix yt premium Sony LIV from almost 3 years. A 200% geniune service person and this is the best and genuine service person.. don't think anymore just contact him and take subscriptions. Other service provider persons are fake. This is a very good service and cheapest OTT services..`,
         rating: 5
     },
     {
-        name: "Sakshi",
-        review: "Hey, just wanted to say StreamNation is lit! Best OTT subs at the lowest prices. Genuine and awesome service! 🎉",
+        name: "kishu",
+        review: `Best OTT service and very fast delivery
+
+Please dont hesitate and go ahead to buy from this`,
         rating: 3.5
     },
     {
-        name: "Akash",
-        review: "Hey, StreamNation has made my life so much easier! Enjoying my shows without breaking the bank. Legit accounts and a solid service. 4 stars from me! 📺",
+        name: `
+Prabhjot Singh`,
+        review: `Best service in cheapest price
+Amazing ...!`,
         rating: 4
     }
 ];
