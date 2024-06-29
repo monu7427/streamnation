@@ -22,7 +22,7 @@ export const products = [
       subPrices: {
         
         '6month': '120',
-        '12month': '179'
+        '12month': '199'
       }
     },
     {
@@ -30,7 +30,7 @@ export const products = [
       name: 'Sony Liv (Your Number)',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLj9bFFpfnB1xAESlmJ2IK3Ixa8XgjYiH0oRjU6Z4jlw&s',
       description: 'his plan offers access to SonyLIV for 12 months at a price of ₹295. With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and SonyLIV originals. 1 device login only. ',
-      price: '300',
+      price: '549',
       availability: 'available',
       subPrices: {
         
@@ -112,8 +112,8 @@ export const products = [
       price: '399',
       availability: 'available',
       subPrices: {
-        '6month' : '399',
-        '12month' : '649'
+        
+        '12month' : '849'
         
       }
     },
@@ -149,7 +149,7 @@ export const products = [
       name: 'Linkedin Business premium',
       image: 'https://lpws.pro/wp-content/uploads/stop-linkedin-premium.jpg',
       description: 'Experience the power of Linked Business Premium! For new users, get 6 months of premium access at an unbeatable price of just ₹559. For existing LinkedIn Premium users, unlock a full year of premium benefits for only ₹4700. Take advantage of this exclusive offer today and elevate your professional journey!',
-      price: '549',
+      price: '999',
       availability: 'available',
       
       
