@@ -45,8 +45,12 @@ const OurProduct = () => {
               <div className="border rounded p-4 cursor-pointer">
                 <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
+                <p className={product.availability === 'available' ? 'text-green-600 mb-2' : 'text-red-600 mb-2'}>
+  {product.availability}
+</p>
+
                 <p className="text-gray-600 mb-2">Starting From</p>
-                <p className="text-green-500 font-bold text-lg">{product.price}&#8377;</p>
+                <p className="text-blue-800 font-bold text-lg">{product.price}&#8377;</p>
               </div>
             </Link>
           ))}

@@ -52,11 +52,15 @@ const ProductDetail = () => {
         <div className="border-b border-gray-200 pb-6">
           <p className="text-sm leading-none text-gray-600">Service Category</p>
           <h1 className="lg:text-2xl text-xl font-semibold leading-7 text-gray-800 mt-2">{product.name}</h1>
+          <p className= {product.availability === 'available' ? 'text-green-600 mb-2' : 'text-red-600 mb-2'}>
+  {product.availability}
+</p>
         </div>
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <p className="text-lg leading-4 text-gray-800">Price</p>
           <p className="text-2xl leading-none text-green-600">{product.subPrices[selectedDuration]}&#8377;</p>
         </div>
+        
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <p className="leading-4 text-gray-800 text-lg">Select Duration</p>
           <div>
@@ -67,6 +71,7 @@ const ProductDetail = () => {
             </select>
           </div>
         </div>
+        
         <div className="py-4 border-b border-gray-200 ">
           <p className="leading-4 text-gray-800 text-lg">Description</p>
           <p className="text-base leading-none text-gray-400 p-6">{product.description}</p>
