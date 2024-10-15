@@ -9,7 +9,7 @@ export const products = [
       subPrices: {
         '1month': '125',
         '3month': '350',
-        '6month': '690'
+        '6month': '699'
       }
     },
     {
@@ -46,9 +46,9 @@ export const products = [
       price: '190',
       availability: 'available',
       subPrices: {
-        '3month': '190',
-        '6month': '370',
-        '12month' : '720'
+        '3month': '270',
+        '6month': '550',
+        '12month' : '1080'
         
       }
     },
@@ -71,7 +71,7 @@ export const products = [
       image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg',
       description: 'For the 12 month plan at ₹180, youll get the same great benefits of ZEE5 as the 12 month plan, but for a longer period. 1 device login.',
       price: '179',
-      availability: 'available',
+      availability: 'unvailable',
       subPrices: {
        
         '12month' : '179'
@@ -83,11 +83,11 @@ export const products = [
       name: 'Disney Hotstar 4k (Your Number)',
       image: 'https://i.gadgets360cdn.com/large/disney_plus_hotstar_logo_1583901149861.jpg',
       description: 'This plan offers access to Disney+ Hotstar for 12 months at a price of ₹1099. With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and Hotstar Specials, along with exclusive Disney+ content such as Marvel movies and shows, 4 device login ',
-      price: '1099',
+      price: '1399',
       availability: 'available',
       subPrices: {
        
-        '12month' : '1099'
+        '12month' : '1399'
         
       }
     },
@@ -106,14 +106,14 @@ export const products = [
     },
     {
       id: 9,
-      name: 'Amazon Prime (Personal)',
+      name: 'Amazon Prime full benifit (Personal)',
       image: 'https://www.shutterstock.com/image-photo/montreal-canada-july-30-2017-260nw-706518910.jpg',
       description: ' Subscription will be provided on your 100% personal subscription, This plan offers Amazon shopping, Prime Video, Amazon music, For activation, customers need to provide an Amazon ID and password to our team',
-      price: '399',
+      price: '999',
       availability: 'available',
       subPrices: {
         
-        '12month' : '849'
+        '12month' : '999'
         
       }
     },
@@ -149,14 +149,14 @@ export const products = [
       name: 'Linkedin Business premium',
       image: 'https://lpws.pro/wp-content/uploads/stop-linkedin-premium.jpg',
       description: 'Experience the power of Linked Business Premium! For new users, get 6 months of premium access at an unbeatable price of just ₹559. For existing LinkedIn Premium users, unlock a full year of premium benefits for only ₹4700. Take advantage of this exclusive offer today and elevate your professional journey!',
-      price: '999',
+      price: '1499',
       availability: 'available',
       
       
       subPrices: {
         
-        '6month' : '999',
-        '12month' : '4700'
+        '6month' : '1499',
+        '12month' : '5100'
         
         
       }
@@ -166,12 +166,12 @@ export const products = [
       name: 'Ullu ',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59vde_JxCA9i2vD7SdAeqOAy9NrqfLl1nF8AR5mOx-A&s',
       description: 'Ullu single device login sharing plan cant change password',
-      price: '249',
+      price: '349',
       availability: 'available',
       subPrices: {
         
         
-        '12month' : '249'
+        '12month' : '349'
         
         
       }
@@ -183,12 +183,9 @@ export const products = [
       description: 'Ullu multi device login private plan can change password',
       price: '399',
       availability: 'available',
-      subPrices: {
-        
-        
+      subPrices: {        
         '12month' : '399'
-        
-        
+               
       }
     },
     {
@@ -196,12 +193,11 @@ export const products = [
       name: 'Coursera premium',
       image: 'https://about.coursera.org/static/whiteCoursera-23ec484f7091914430ce19b07d09aedf.svg',
       description: 'Coursera premium 6 months On your mail ,private account, premium invite, 75+ corses 100% premium',
-      price: '249',
+      price: '1449',
       availability: 'unvailable',
-      subPrices: {
+      subPrices: {       
         
-        
-        '6month' : '249'
+        '6month' : '1449'
         
         
       }
@@ -211,12 +207,12 @@ export const products = [
       name: 'Adobe Creative Cloud All Apps',
       image: 'https://i.ytimg.com/vi/nLa-Q9nxva0/maxresdefault.jpg',
       description: 'The Creative Cloud All Apps plan offers you more than 20 creative apps, including Photoshop, Illustrator, Premiere Pro, After Effects, InDesign, and Acrobat. You also get social media templates, cloud storage, thousands of Adobe Fonts, and access to Adobe Portfolio and Behance',
-      price: '699',
+      price: '799',
       availability: 'available',
       subPrices: {
         
         
-        '1month' : '699',
+        '1month' : '799',
         '12month' : '7999'
         
         
@@ -272,14 +268,10 @@ export const products = [
       name: 'Aha (On Your Number)',
       image: 'https://www.91-cdn.com/hub/wp-content/uploads/2022/09/Aha-subscription.png',
       description: 'aha is Indias Premium OTT Sevice to Watch Movies, Web Series, TV Shows, Live TV Channels in Telugu & Tamil. Watch In HD and 4K Quality Content.',
-      price: '90',
+      price: '99',
       availability: 'available',
-      subPrices: {
-        
-        
-        '3month' : '90',
-                
-        
+      subPrices: {          
+        '3month' : '99',                       
       }
     },
     // Add more product objects here
