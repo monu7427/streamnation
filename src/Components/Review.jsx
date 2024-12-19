@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const reviews = [
     {
@@ -28,8 +29,7 @@ Suggestion- aap anime fan ke liye bhi ott lao ..jaise Crucyroll ka subscription 
         name: "Vinnu sahu",
         review: `Admired his honesty. I paid amount for hotstar and due to personal emergency I didn't ask account details. Two months later I asked about subscription. He shared account details without any second thought. To be honest I didn't expect this kind of response from him
 Genuine guy and true professionalism
-Thanks
-`,
+Thanks`,
         rating: 4
     },
     {
@@ -56,55 +56,81 @@ Please dont hesitate and go ahead to buy from this`,
         rating: 3.5
     },
     {
-        name: `
-Prabhjot Singh`,
+        name: `Prabhjot Singh`,
         review: `Best service in cheapest price
 Amazing ...!`,
         rating: 4
     }
 ];
 
-
-
 const Review = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [direction, setDirection] = useState(0);
+
+    // Framer motion animation variants
+    const variants = {
+        enter: (direction) => ({
+            x: direction > 0 ? 300 : -300,
+            opacity: 0,
+        }),
+        center: {
+            x: 0,
+            opacity: 1,
+        },
+        exit: (direction) => ({
+            x: direction > 0 ? -300 : 300,
+            opacity: 0,
+        }),
+    };
 
     const nextReview = () => {
+        setDirection(1);
         setCurrentIndex((prevIndex) => (prevIndex + 1) % reviews.length);
     };
 
     const prevReview = () => {
+        setDirection(-1);
         setCurrentIndex((prevIndex) => (prevIndex - 1 + reviews.length) % reviews.length);
     };
 
     return (
         <>
-
-        <h1 className='bg-slate-900 text-white text-center w-full p-4 text-2xl font-bold'>Reviews</h1>
-        <div className="flex flex-col items-center justify-center h-65 bg-slate-200">
-            
-            <div className="w-full max-w-xl p-8">
-                <div className="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl font-semibold mb-2">{reviews[currentIndex].name}</h3>
-                    <p className="mb-2">{reviews[currentIndex].review}</p>
-                    <p className="mb-4">Rating: { '★'.repeat(reviews[currentIndex].rating) + '☆'.repeat(5 - reviews[currentIndex].rating)}</p>
-                </div>
-                <div className="flex justify-between mt-4">
-                    <button 
-                        className="bg-slate-900 text-white px-4 py-2 rounded hover:bg-gray-700"
-                        onClick={prevReview}
+            <h1 className="bg-slate-900 text-white text-center w-full p-4 text-2xl font-bold">Reviews</h1>
+            <div className="flex flex-col items-center justify-center h-65 bg-slate-200">
+                <div className="w-full max-w-xl p-8">
+                    <motion.div
+                        className="bg-white p-6 rounded-lg shadow-lg"
+                        key={currentIndex}
+                        custom={direction}
+                        initial="enter"
+                        animate="center"
+                        exit="exit"
+                        variants={variants}
+                        transition={{ duration: 0.5 }}
                     >
-                        Previous
-                    </button>
-                    <button 
-                        className="bg-slate-900 text-white px-4 py-2 rounded hover:bg-gray-700"
-                        onClick={nextReview}
-                    >
-                        Next
-                    </button>
+                        <h3 className="text-xl font-semibold mb-2">{reviews[currentIndex].name}</h3>
+                        <p className="mb-2">{reviews[currentIndex].review}</p>
+                        <p className="mb-4">
+                            Rating: {'★'.repeat(reviews[currentIndex].rating) + '☆'.repeat(5 - reviews[currentIndex].rating)}
+                        </p>
+                    </motion.div>
+                    <div className="flex justify-between mt-4">
+                        <button
+                            className="bg-slate-900 text-white px-4 py-2 rounded hover:bg-gray-700"
+                            onClick={prevReview}
+                        >
+                            Previous
+                        </button>
+                        <button
+                            className="bg-slate-900 text-white px-4 py-2 rounded hover:bg-gray-700"
+                            onClick={nextReview}
+                        >
+                            Next
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div></>
+        </>
     );
 };
 

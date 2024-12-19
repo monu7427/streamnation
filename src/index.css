@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS for the WhatsApp icon */
+/* Custom CSS for the WhatsApp icon */
+.whatsapp-icon-container {
+    animation: bellShake 1s infinite; /* Apply bell animation */
+  }
+  
+  @keyframes bellShake {
+    0% {
+      transform: rotate(0deg); /* Initial state (no rotation) */
+    }
+    20% {
+      transform: rotate(15deg); /* Rotate slightly to the right */
+    }
+    40% {
+      transform: rotate(-15deg); /* Rotate slightly to the left */
+    }
+    60% {
+      transform: rotate(10deg); /* Rotate right again */
+    }
+    80% {
+      transform: rotate(-10deg); /* Rotate left again */
+    }
+    100% {
+      transform: rotate(0deg); /* Return to the normal position */
+    }
+  }
+  

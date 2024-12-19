@@ -43,7 +43,7 @@ export const products = [
       name: 'YouTube Premium (Your Personal Mail)',
       image: 'https://logowik.com/content/uploads/images/youtube-premium8029.logowik.com.webp',
       description: 'This plan offers access to YouTube Premium . With this subscription, youll get ad-free access to YouTube, which includes a vast selection of videos, music, and YouTube originals.',
-      price: '190',
+      price: '270',
       availability: 'available',
       subPrices: {
         '3month': '270',
@@ -66,25 +66,12 @@ export const products = [
       }
     },
     {
-      id: 6,
-      name: 'Zee 5 (Our Number)',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg',
-      description: 'For the 12 month plan at ₹180, youll get the same great benefits of ZEE5 as the 12 month plan, but for a longer period. 1 device login.',
-      price: '179',
-      availability: 'unvailable',
-      subPrices: {
-       
-        '12month' : '179'
-        
-      }
-    },
-    {
       id: 7,
       name: 'Disney Hotstar 4k (Your Number)',
       image: 'https://i.gadgets360cdn.com/large/disney_plus_hotstar_logo_1583901149861.jpg',
       description: 'This plan offers access to Disney+ Hotstar for 12 months at a price of ₹1099. With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and Hotstar Specials, along with exclusive Disney+ content such as Marvel movies and shows, 4 device login ',
       price: '1399',
-      availability: 'available',
+      availability: 'unavailable',
       subPrices: {
        
         '12month' : '1399'
@@ -97,7 +84,7 @@ export const products = [
       image: 'https://i.gadgets360cdn.com/large/disney_plus_hotstar_logo_1583901149861.jpg',
       description: 'This plan offers access to Disney+ Hotstar for 12 months at a price of ₹449 . With this subscription, youll get unlimited access to a vast selection of TV shows, movies, and Hotstar Specials, along with exclusive Disney+ content such as Marvel movies and shows, 1 device login',
       price: '449',
-      availability: 'available',
+      availability: 'unavailable',
       subPrices: {
         
         '12month' : '449'
@@ -109,11 +96,11 @@ export const products = [
       name: 'Amazon Prime full benifit (Personal)',
       image: 'https://www.shutterstock.com/image-photo/montreal-canada-july-30-2017-260nw-706518910.jpg',
       description: ' Subscription will be provided on your 100% personal subscription, This plan offers Amazon shopping, Prime Video, Amazon music, For activation, customers need to provide an Amazon ID and password to our team',
-      price: '999',
+      price: '899',
       availability: 'available',
       subPrices: {
         
-        '12month' : '999'
+        '12month' : '899'
         
       }
     },
@@ -125,8 +112,11 @@ export const products = [
       price: '199',
       availability: 'available',
       subPrices: {
-        
-        '3month' : '199'
+        '2month' : '99',
+        '3month' : '149',
+        '6month' : '450',
+        '12month' : '799',
+
         
       }
     },
@@ -134,13 +124,13 @@ export const products = [
       id: 11,
       name: 'Canva Pro',
       image: 'https://www.rdkey.shop/cdn/shop/articles/14.png?v=1704782962',
-      description: 'On your Id. No password required. Activation through link. 100% safe. Take your design game to the next level with Canva  1-year plan at an amazing price of just 149 Rs. With this subscription, youll have access to a vast library of templates, images, and etc.',
+      description: 'On your Id. No password required. Activation through link. 100% safe. Take your design game to the next level with Canva  1-year plan at an amazing price of just 199 Rs. With this subscription, youll have access to a vast library of templates, images, and etc.',
       price: '199',
       availability: 'available',
       subPrices: {
         
         '12month' : '199',
-        'Life Tims' : '380'
+        'Life Tims' : '299'
         
       }
     },
@@ -148,7 +138,7 @@ export const products = [
       id: 12,
       name: 'Linkedin Business premium',
       image: 'https://lpws.pro/wp-content/uploads/stop-linkedin-premium.jpg',
-      description: 'Experience the power of Linked Business Premium! For new users, get 6 months of premium access at an unbeatable price of just ₹559. For existing LinkedIn Premium users, unlock a full year of premium benefits for only ₹4700. Take advantage of this exclusive offer today and elevate your professional journey!',
+      description: 'Experience the power of Linked Business Premium!, get 6 months of premium access at an unbeatable price of just ₹1499. unlock a full year of premium benefits for only ₹2999. Take advantage of this exclusive offer today and elevate your professional journey!',
       price: '1499',
       availability: 'available',
       
@@ -156,8 +146,22 @@ export const products = [
       subPrices: {
         
         '6month' : '1499',
-        '12month' : '5100'
+        '12month' : '2999'
         
+        
+      }
+    },
+    {
+      id: 12,
+      name: 'Linkedin Career premium',
+      image: 'https://lpws.pro/wp-content/uploads/stop-linkedin-premium.jpg',
+      description: 'Experience the power of Linked career Premium! get 12 months of premium access at an unbeatable price of just 2799.Take advantage of this exclusive offer today and elevate your professional journey!',
+      price: '1499',
+      availability: 'available',
+      
+      
+      subPrices: {
+        '12month' : '2799'
         
       }
     },
@@ -238,12 +242,12 @@ export const products = [
       name: 'ChatGPT-Plus  ',
       image: 'https://www.togetherbe.com/wp-content/uploads/2023/06/What-is-ChatGPT-plus.webp',
       description: 'ChatGPT Plus allows users to upload spreadsheets, PowerPoint presentations, research papers, PDFs and even photos. The feature is really useful as you can ask the chatbot to create a visual graph of numbers from an excel spreadsheet or proofread a certain document.',
-      price: '749',
+      price: '449',
       availability: 'unvailable',
       subPrices: {
         
         
-        '1month' : '749',
+        '1month' : '449',
                 
         
       }
