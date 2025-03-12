@@ -7,7 +7,7 @@ const WhatsappIcon = () => {
 
   return (
     <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-      <div className="whatsapp-icon-container rounded-xl fixed bottom-8 right-6 z-50 cursor-pointer">
+      <div className=" rounded-xl fixed bottom-8 right-6 z-50 cursor-pointer">
         {/* WhatsApp icon */}
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Icon" className="w-12 h-auto" />
       </div>
