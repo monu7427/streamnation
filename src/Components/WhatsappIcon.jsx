@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhatsappIcon.css';  // Import the custom CSS for the bell animation
+
 
 const WhatsappIcon = () => {
   const whatsappNumber = "9079179449";
