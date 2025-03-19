@@ -275,7 +275,19 @@ export const products = [
       price: '99',
       availability: 'available',
       subPrices: {          
-        '3month' : '99',                       
+        '3months' : '99',                       
+      }
+    },
+
+     {
+      id: 21,
+      name: 'Perplexity Ai Pro (On Your Account)',
+      image: 'https://assets.bizclikmedia.net/1800/b9c92286e658119663b97a2267aee9d1:0006bf344b145b7046bf9b5f43b7a786/perplexity-logo.webp',
+      description: 'Perplexity AI provides real-time, AI-powered search with accurate and well-sourced answers. It fetches the latest data from the web, ensuring up-to-date information. Unlike traditional search engines, it understands context better and delivers precise results with cited sources, enhancing credibility. Its interactive interface allows users to refine queries for more relevant responses. Perplexity AI is useful for research, fact-checking, and quick learning, making it a valuable tool for students, professionals, and businesses. Additionally, it reduces misinformation by providing verifiable sources. With an efficient, user-friendly experience, it enhances knowledge discovery and decision-making in various fields.',
+      price: '1999',
+      availability: 'available',
+      subPrices: {          
+        '12months' : '1999',                       
       }
     },
     // Add more product objects here
